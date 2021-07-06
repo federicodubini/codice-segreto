@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Decodifica</title>
+
+	<style type="text/css">
+
+		a{
+			font-family: helvetica;
+			color: white;
+		}
+
+		a:hover{
+			text-decoration: none;
+			color: white;
+		}
+
+
+		.box{
+			margin-top: 100px;
+			margin-left: 25%;
+			margin-right: 25%;
+		}
+
+		h1{
+			color: white;
+			font-size: 70pt;
+			font-family: sans-serif;
+		}
+
+		input{
+			border-radius: 0;
+			width: 85%;
+			height: 30px;
+			background-color: black;
+			color: white;
+		}
+
+		button{
+			min-width: 100px;
+			height: 36px;
+			border-radius: 0;
+			background-color: black;
+			color: white;
+		}	
+
+		body{
+			margin:0;
+			padding:0;
+			background-color: #202020;
+		}
+		canvas {
+			display:block;
+			width:100vw;
+			height:100vh;
+		}
+		#targetCanvasContainer {
+			display: block;
+			margin-bottom: 3em;
+			border: 3px solid white;
+		}
+		#targetFileUploadContainer {
+			display: block;
+			width: auto;
+			background-color: #202020;
+			margin-bottom: 3em;
+		}
+		#demo{
+				color: white;
+				font-family: helvetica;
+		}
+
+		#scroll {
+                background-color: #08c708;
+                overflow-x: scroll;
+                overflow-y: auto;
+                white-space: nowrap;
+            }
+
+        input{
+        	background-color: #202020;
+        }
+
+
+	</style>
+
+
+</head>
+<body style="background-color: #202020;" class="disable-select disable-scroll">
+
+	<div class="box">
+
+		<div style="margin-bottom: 75px;">
+			<a href="../index.html">home page</a>
+		</div>
+
+		<h1>Pixel decoder</h1>
+		<!-- <div> -->
+			<!-- <input type="text" name="Inserire testo da codificare"> -->
+		<div id="targetFileUploadContainer" style="background-color: #202020;"></div>
+			<!-- <button style="float: right;" id="decode_button">decodifica</button> -->
+		<!-- </div> -->
+		<div id="targetCanvasContainer" class="scroll" style="overflow: scroll;"></div>
+		<pre id="demo"></pre>
+		<!-- <div style="color: white; margin-top: 50px; border-style: solid; border-width: 1px; border-color: white; padding: 10px; height: 300px;">
+		</div> -->
+	</div>
+
+
+	<!--
+		embed dello script: copiate l'ultima versione da qui:
+		https://cdnjs.com/libraries/p5.js
+	-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js" integrity="sha512-b/htz6gIyFi3dwSoZ0Uv3cuv3Ony7EeKkacgrcVg8CMzu90n777qveu0PBcbZUA7TzyENGtU+qZRuFAkfqgyoQ==" crossorigin="anonymous"></script>
+	<!--
+		link al vostro file
+	-->
+	<script src="main.js"></script>
+
+</body>
+
+
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Codifica</title>
+	<style type="text/css">
+
+		.box{
+			margin-top: 100px;
+			margin-left: 25%;
+			margin-right: 25%;
+
+
+		}
+
+
+
+		h1{
+			color: white;
+			font-size: 70pt;
+			font-family: sans-serif;
+		}
+
+		input{
+			border-radius: 0;
+			width: 85%;
+			height: 30px;
+			background-color: black;
+			color: white;
+		}
+
+		button{
+			min-width: 100px;
+			height: 36px;
+			border-radius: 0;
+			background-color: #0f0f0f;
+			color: white;
+			border: none;
+			font-family: helvetica;
+			font-size: 10pt;
+		}
+
+		button:hover{
+			color: #fff;
+			background-color: #000;
+
+		}
+
+		textarea{
+			width: 825px;
+			height: 122px;
+			resize: none;
+			background-color: #202020;
+			color: white;
+			border-width: 3px;
+			padding: 7px;
+			font-family: helvetica;
+			font-size: 10pt;
+			border-color: white;
+		}
+		
+		.scroll {
+                margin: 4px, 4px;
+                padding: 4px;
+                background-color: #08c708;
+                overflow-x: scroll;
+                overflow-y: auto;
+                white-space: nowrap;
+            }
+
+            a{
+			font-family: helvetica;
+			color: white;
+		}
+
+		a:hover{
+			text-decoration: none;
+			color: white;
+		}
+
+	</style>
+</head>
+<body style="background-color: #202020;">
+
+	<div class="box">
+
+		<div style="margin-bottom: 75px;">
+			<a href="../index.html">home page</a>
+		</div>
+
+		<div>
+			<h1>Pixel encoder</h1>
+		</div>
+		<div>
+			<textarea placeholder="Scrivi qui per codificare il tuo messaggio" cols="30" rows="5" id="input_text"></textarea>
+		</div>
+		<div id="container" class="scroll" style="color: white; margin-top: 50px;  padding: 1px 0px; border-left: none; border-right: none; background-color: #202020;">
+			<!-- <img src="out_1618919631349.png"> -->
+		</div>
+
+		<div>
+			<button style="float: right; margin-top: 50px;" id="save_button">salva</button>
+		</div>
+
+	</div>
+
+
+
+
+
+<!--
+		embed dello script: copiate l'ultima versione da qui:
+		https://cdnjs.com/libraries/p5.js
+	-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js" integrity="sha512-gQVBYBvfC+uyor5Teonjr9nmY1bN+DlOCezkhzg4ShpC5q81ogvFsr5IV4xXAj6HEtG7M1Pb2JCha97tVFItYQ==" crossorigin="anonymous"></script>
+	<!--
+		link al vostro file
+	-->
+	<script src="main.js"></script>
+</body>
+</html>
